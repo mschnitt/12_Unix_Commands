@@ -20,3 +20,7 @@ ls /Applications | grep i
 
 #Or, something more complex
 ls /Applications | grep Safari 
+
+#Find bits from the environment
+$ env | grep HOME
+$ env | grep USER

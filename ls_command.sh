@@ -28,13 +28,16 @@ ls -a ~
 #Long Listing
 ls -la ~
 
-#Multiple paths 
-ls /usr/bin /usr/sbin/ /bin
+#The current directory
+ls .
+
+#The parent directory
+ls ..
 
 #Three characters, d, s, and anything else.
-ls /usr/bin/ds?
+ls /usr/bin/d?
 
-#Three characters
+#List any file with three characters in /usr/bin
 ls /usr/bin/???
 
 #Any three lowercase letters. 

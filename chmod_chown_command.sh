@@ -11,13 +11,14 @@ ls -l testfile
 #Make the file readable and executable by everyone
 chmod 555 testfile
 #or 
+
 chmod a+rx testfile
 ls -l testfile
 
 #Give all permissions to file owner, but none to others
 chmod 700 testfile
 #or 
-chmod a-rwx 
+chmod a-rwx testfile
 chmod u+rwx testfile
 ls -l testfile
 

@@ -6,8 +6,8 @@ find /Applications -name "Terminal.app"
 #Find applications changed in the last 5 days
 find /Applications -mtime -5 -name "*.app"
 
-#Where did that “ls” command come from?
-find / -name ls
+#Be careful with searching “/“
+$ find / -name ls
 
 #Directories owned by root in the current directory
 find . -type d -uid root

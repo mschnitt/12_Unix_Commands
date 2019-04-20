@@ -7,7 +7,7 @@ du -ks /Applications/Safari.app
 sudo du -ks /Users
 
 #Personal Library Folder and list all files?
-du -k ~/Library/Application\ Support/
+du -hs  ~/Library/Application\ Support/
 
 df -k .
 df -h .
