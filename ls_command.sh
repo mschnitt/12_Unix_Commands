@@ -41,4 +41,4 @@ ls /usr/bin/d?
 ls /usr/bin/???
 
 #Any three lowercase letters. 
-$ ls /usr/sbin/[a-z][a-z][a-z]
+ls /usr/sbin/[a-z][a-z][a-z]
